@@ -1,0 +1,1019 @@
+/*--------------------------------------------HOME page-----------------------------------------*/
+
+/*----------NAV------*/
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: deepskyblue;
+}
+p{
+    font-size: 1.2em;
+}
+td{
+    
+    font-size: 1.2em;
+}
+/*
+
+.heroimage img {
+    width: 100%;
+}
+
+.heroimage {
+    position: relative;
+
+}
+
+.heroimage .content {
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    /* Fallback color */
+/* background: rgba(0, 0, 0, 0.5);
+    /* Black background with 0.5 opacity */
+/*  color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+}
+
+.heroimage .btn {
+    position: absolute;
+    top: 15%;
+    left: 91%;
+    width: auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 12px 24px;
+    border: 3px solid deepskyblue;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.heroimage .btn2 {
+    position: absolute;
+    top: 15%;
+    left: 83%;
+    width: auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 12px 12px;
+    border: 3px solid deepskyblue;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.heroimage #tagline {
+    position: absolute;
+    top: 65%;
+    left: 6%;
+    width: auto;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 12px 12px;
+    border: 2px solid deepskyblue;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.heroimage .btn:hover {
+    background-color: black;
+}
+
+.heroimage .btn2:hover {
+    background-color: black;
+}
+
+.name {
+    position: absolute;
+    top: 15%;
+    left: 5%;
+    width: auto;
+    background-color: transparent;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-align: center;
+}
+
+#nameText {
+    font-family: 'Electrolize', candara;
+    font-size: 3.5em;
+}
+
+.right {
+    transform: rotate(-45deg);
+}
+
+i {
+    position: absolute;
+    top: 18%;
+    left: 81%;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 8px;
+}
+
+#videoDiv {
+    padding-top: 20px;
+    width: auto;
+    border: 1px solid black;
+    margin-top: 20px;
+    background-color: azure;
+}
+
+
+video {
+    padding-left: 200px;
+}
+*/
+* {
+    box-sizing: border-box;
+}
+
+.name {
+
+    width: auto;
+    background-color: black;
+    color: white;
+    border: 10px solid skyblue;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Electrolize', candara;
+    font-size: 3.5em;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#nameText {
+    font-family: 'Electrolize', candara;
+    font-size: 3.5em;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.containerhome {
+    display: flex;
+    height: 100vh;
+}
+
+.section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    transition: flex .4s ease;
+    position: relative;
+}
+
+.section .overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: background-color .8s ease;
+}
+
+.content {
+    border: 2px solid white;
+    padding: 10px;
+}
+
+.content:hover {
+    background-color: black;
+}
+
+.section .content {
+    z-index: 2;
+}
+
+.section:hover {
+    flex: 2;
+}
+
+.section:hover .overlay {
+    background-color: rgba(0, 0, 0, 0.30);
+}
+
+#marketing {
+    background-image: url(../images/man-holding-mug-in-front-of-laptop-842548.jpg);
+}
+
+
+#technology {
+    background-image: url(../images/controller-4677877_1920.jpg);
+}
+
+
+
+
+
+#emailMatch1{
+    display: none;
+}
+#passwordShow1{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------FILTER page-----------------------------------------------------*/
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+    cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 40%;
+    width: auto;
+    padding: 16px;
+    margin-top: -50px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    -webkit-user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+    text-align: center;
+    background-color: #222;
+    padding: 2px 16px;
+    color: white;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Six columns side by side */
+.column {
+    float: left;
+    width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+    opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+    opacity: 1;
+}
+
+/*-------Slide Over-----------*/
+
+.name_logo {
+
+    width: auto;
+    background-color: black;
+    color: white;
+    border: 1px solid skyblue;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Electrolize', candara;
+    font-size: 2em;
+    padding: 5px 20px;
+
+}
+
+#intro_header {
+    display: flex;
+    border: 1px solid lightgrey;
+    margin-top: 10px;
+    background-color: aliceblue;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+#intro_header:hover {
+    transform: scale(1.1);
+    margin-top: 50px;
+    transition-duration: 1.5s;
+}
+
+#image_products {
+    flex: 1;
+    background-size: contain;
+    background-image: url(../images/redXbox.png);
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+#products_new {
+    flex: 1;
+    padding-top: 65px;
+    font-size: 3em;
+    font-family: 'Electrolize', candara;
+}
+
+#filterItem {
+    display: flex;
+}
+
+form {
+    font-size: 1.2em;
+    border: 1px dotted grey;
+    margin-top: 40px;
+    padding: 10px;
+    background-color: azure;
+}
+
+h3 {
+    color: midnightblue;
+}
+
+form:hover {
+    background-color: lightcyan;
+}
+
+#filterButton {
+    width: 100%;
+    padding: 5px 2px;
+    color: white;
+    border-radius: 5px;
+    font-size: 1.1em;
+    text-align: center;
+    background-color: midnightblue;
+}
+
+#filterButton:hover {
+    background-color: dimgray;
+}
+
+.leftFilter {
+    flex: 1;
+}
+
+.rightItems {
+    flex: 10;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.items {
+    text-align: center;
+    border: 2px solid black;
+    margin: 20px;
+    background-color: azure;
+}
+
+.items:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.imagePic {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+.seeDetails {
+    width: 60%;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.seeDetails:hover {
+    cursor: pointer;
+    color: deepskyblue;
+}
+
+.itemPrice {
+    visibility: hidden;
+}
+
+#headphone1 {
+    background-image: url(../images/JBLT450BTOnEar.png);
+}
+
+#headphone2 {
+
+    background-image: url(../images/beatsbyDrDreStudio3.png);
+}
+
+#headphone3 {
+
+    background-image: url(../images/JBLBlue.png);
+}
+
+#headphone4 {
+
+    background-image: url(../images/sonyHeadphone.png);
+}
+
+#headset1 {
+
+    background-image: url(../images/skullcandyjib.png);
+}
+
+#headset2 {
+
+    background-image: url(../images/SkullcandyIndy.png);
+}
+
+#headset3 {
+
+    background-image: url(../images/pixel.png);
+}
+
+#headset4 {
+
+    background-image: url(../images/iwalk.png);
+}
+
+#console1 {
+
+    background-image: url(../images/blackXbox.png);
+}
+
+#console2 {
+
+    background-image: url(../images/redXbox.png);
+}
+
+#console3 {
+
+    background-image: url(../images/psblack.png);
+}
+
+#console4 {
+
+    background-image: url(../images/whiteXbox.png);
+}
+
+
+
+.rightItemsModified {
+    flex: 10;
+    display: none;
+    background-color: azure;
+    margin-top: 40px;
+    margin-left: 10px;
+    box-shadow: 5px 10px 18px #888888;
+
+
+}
+
+#fullCart {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #f2f2f2;
+    padding: 30px;
+    text-align: center;
+}
+
+#clearfix {
+    width: 30%;
+}
+
+.cartitems {
+    font-family: candara;
+    font-size: 1.1em;/*
+    background-color: lightskyblue;*/
+    margin: 1px;
+    padding: 10px;
+}
+
+#taxPrice {
+    text-align: center;
+}
+
+
+#cartTotalItems {
+    font-family: candara;
+    width: 80%;
+    margin: 1px;
+    display: inline;
+}
+
+#totalPrice {
+    margin: 1px;
+    text-align: center;
+
+}
+
+
+#totalcart {
+    font-family: candara;
+    text-align: center;
+    margin: 1px;
+}
+
+/* ---------------------------INFORMATIONS---------------------*/
+.topPortion {
+    display: flex;
+}
+
+.priceCart {
+    flex: 1;
+    text-align: center;
+}
+
+.cart {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: green;
+    text-align: center;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: candara;
+}
+
+#priceOfCart {
+    color: black;
+    font-size: 2em;
+    margin: 0px;
+    font-family: candara;
+
+}
+
+.showPicture {
+    flex: 2;
+}
+
+
+
+#descriptionImage {
+    width: 600px;
+    height: 500px;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.imagePic {
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 400px;
+    width: 100%;
+    background-position: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+#wrapper {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*
+#filterItem{
+    display: flex;
+}
+.leftFilter{
+    flex: 1;
+}
+.rightItems{
+    flex: 10;
+    display: grid;
+    grid-template-columns: 24% 24% 24% 24%;  
+    justify-content: space-between;
+}
+.items{
+    text-align: center;
+    border: 2px solid black;
+}
+.items:hover{
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.seeDetails{
+    width: 60%;
+    background-color: black;
+    color: white;
+    margin-left: auto;
+    margin-right: auto;
+}
+.seeDetails:hover{
+    cursor: pointer;
+}
+.itemPrice{
+    visibility: hidden;
+}
+#headphone1{
+    background-image: url(../images/JBLT450BTOnEar.png);
+}
+#headphone2{
+    
+    background-image: url(../images/headphone2.png);
+}
+#headphone3{
+    
+    background-image: url(../images/headphone3.png);
+}
+#headphone4{
+    
+    background-image: url(../images/headphone4.png);
+}
+#headset1{
+    
+    background-image: url(../images/headset1.png);
+}
+#headset2{
+    
+    background-image: url(../images/headset2.png);
+}
+#headset3{
+    
+    background-image: url(../images/headset3.png);
+}
+#headset4{
+    
+    background-image: url(../images/headset4.png);
+}
+#console1{
+    
+    background-image: url(../images/console1.png);
+}
+#console2{
+    
+    background-image: url(../images/console2.png);
+}
+#console3{
+    
+    background-image: url(../images/console3.png);
+}
+#console4{
+    
+    background-image: url(../images/console4.png);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.rightItemsModified{
+    flex: 10;
+}
+
+
+.rightItemsModified{
+    display: none;
+}
+
+
+
+ ---------------------------INFORMATIONS---------------------
+.topPortion{
+    display: flex;
+}
+.priceCart{  
+    flex: 1;
+    text-align: center;
+}
+.cart{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    text-align: center;
+    
+}
+
+.showPicture{
+    flex: 2;
+}
+
+
+
+
+*/
+
+
+#widget1:hover {
+    color: white;
+}
+
+#widget2:hover {
+    color: white;
+}
+
+#widget3:hover {
+    color: white;
+}
+
+
+
+
+
+
+
+/*----------------STAR RATING SYSTEM-------------*/
+
+.checked:hover {
+    cursor: pointer;
+}
+
+#submitComment {
+    width: 120px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------SIGN IN MODAL-------------------------------------------------------------------*/
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* Full-width input fields */
+input[type=text],
+input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus,
+input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,
+.signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none;
+    /* Hidden by default */
+    position: fixed;
+    /* Stay in place */
+    z-index: 1;
+    /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%;
+    /* Full width */
+    height: 100%;
+    /* Full height */
+    overflow: auto;
+    /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%;
+    /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+#passwordMatch {
+    display: none;
+}
+
+#nameMatch {
+
+    display: none;
+}
+
+#emailMatch {
+
+    display: none;
+}
+
+#passwordShow {
+
+    display: none;
+}
+
+
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+
+    .cancelbtn,
+    .signupbtn {
+        width: 100%;
+    }
+}

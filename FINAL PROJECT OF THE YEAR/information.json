@@ -1,0 +1,149 @@
+{
+    "teammembers": [
+        {
+            "nameComment": "JBL T450BT On-Ear",
+            "name": "JBL_T450BT_On_Ear",
+            "description": "Over-ear headphones boast a fabric headband and soft ear cups for a comfortable fit. Bluetooth 4.2 connectivity lets you switch from one device to another for effortless multitasking. 40mm drivers and JBL Signature Sound pump out immersive, true-to-life sound with enhanced bass",
+            "image": "images/JBLT450BTOnEar.png",
+            "model_number": "JBLT450BTBLK",
+            "color": "Black",
+            "price": "24",
+            "wireless_standby_time": "11h",
+            "charge_time": "2h",
+            "bluetooth": "Bluetooth 4.2"
+
+},
+        {
+            "nameComment": "Beats by Dr. Dre Studio3",
+            "name": "Beats_by_Dr_Dre_Studio3",
+            "description": "Part of the Skyline Collection. Bluetooth technology offers the convenience of wireless audio streaming from your compatible devices. Pure Adaptive Noise Cancelling (Pure ANC) technology actively blocks unwanted external noise",
+            "image": "images/beatsbyDrDreStudio3.png",
+            "model_number": "MTQW2LL/A",
+            "color": "Midnight Black",
+            "price": "45",
+            "wireless_standby_time": "11h",
+            "charge_time": "2h",
+            "bluetooth": "Bluetooth 4.0"
+},
+        {
+            "nameComment": "Beats by Dr. Dre Studio5",
+            "name": "Beats_by_Dr_Dre_Studio5",
+            "description": "Part of the Skyline Collection. Bluetooth technology offers the convenience of wireless audio streaming from your compatible devices. Pure Adaptive Noise Cancelling (Pure ANC) technology actively blocks unwanted external noise",
+            "image": "images/JBLBlue.png",
+            "model_number": "MTQW2LL/b",
+            "color": "Royal Blue",
+            "price": "111",
+            "wireless_standby_time": "11h",
+            "charge_time": "2h",
+            "bluetooth": "Bluetooth 4.0"
+},
+        {
+            "nameComment": "Sony WH-CH700N Over-Ear",
+            "name": "Sony_WH_CH700N_Over_Ear",
+            "description": "Headphone1",
+            "image": "images/sonyHeadphone.png",
+            "model_number": "WHCH700N",
+            "color": "blue",
+            "price": "65",
+            "wireless_standby_time": "7h",
+            "charge_time": "3h",
+            "bluetooth": "Bluetooth 4.0"
+},
+        {
+            "nameComment": "Skullcandy Jib+",
+            "name": "Skullcandy_Jib",
+            "description": "Bluetooth 4.1 lets you wirelessly connect to your smartphone or tablet for hands-free convenience and complete freedom of movement.In-ear headphones feature a behind-the-neck band and FitFin Gels to help keep them comfortably in place. Sound isolating design blocks out background noise so you can focus on your tunes or phone calls",
+            "image": "images/skullcandyjib.png",
+            "model_number": "JIB+ ACTIVE",
+            "color": "black",
+            "price": "60",
+            "wireless_standby_time": "4h",
+            "charge_time": "2h",
+            "bluetooth": "Bluetooth 4.1"
+},
+        {
+            "nameComment": "Skullcandy Indy",
+            "name": "Skullcandy_Indy",
+            "description": "Truly wireless design with Bluetooth enables cord-free connectivity with your smartphone or music player so you can work out with complete freedom. 6mm drivers deliver powerful, clear sound in a compact package",
+            "image": "images/SkullcandyIndy.png",
+            "model_number": "INDY",
+            "color": "Black",
+            "price": "90",
+            "wireless_standby_time": "15h",
+            "charge_time": "4h",
+            "bluetooth": "Bluetooth 4.1"
+},
+        {
+            "nameComment": "Google Pixel USB-C In-Ear Headphones",
+            "name": "Google_Pixel_Headphones",
+            "description": "Digital USB-C with 24-bit audio playback. Designed to fit comfortably in your ear canal to block out external noise so you can experience the rich bass and crisp highs",
+            "image": "images/pixel.png",
+            "model_number": " GA00485-US",
+            "color": "White",
+            "price": "100",
+            "wireless_standby_time": "7h",
+            "charge_time": "3h",
+            "bluetooth": "Bluetooth 4.2"
+},
+        {
+            "nameComment": "iWalk Earphones",
+            "name": "iWalk_Earphones",
+            "description": "Bluetooth connectivity allows for a more stable and reliable connection.Connect up to 4 wireless controllers so you and your friends can all reap the benefits of the controller.LED indicators will show the connection status and player number of the controller",
+            "image": "images/iwalk.png",
+            "model_number": "iwalk799N",
+            "color": "blue",
+            "price": "42",
+            "wireless_standby_time": "11h",
+            "charge_time": "5h",
+            "bluetooth": "Bluetooth 4.0"
+},
+        {
+            "nameComment": "X-Box Controller",
+            "name": "X_Box_Controller",
+            "description": "Perfect curvature and lightweight build allows for hours of gaming without any hand fatigue.Excellent button layout makes all buttons easily accessible and easy to press.Instant response for immediate reactions in-game! Always fire the bullet and stay ahead of the opponent",
+            "image": "images/blackXbox.png",
+            "model_number": "xboxblack",
+            "color": "black",
+            "price": "55",
+            "wireless_standby_time": "Wireless",
+            "charge_time": "3h",
+            "bluetooth": "Bluetooth 4.0"
+},
+        {
+            "nameComment": "X_Box_Controller_2.0.2",
+            "name": "X_Box_Controller_2_0_2",
+            "description": "Bluetooth connectivity allows for a more stable and reliable connection.Connect up to 4 wireless controllers so you and your friends can all reap the benefits of the controller.LED indicators will show the connection status and player number of the controller",
+            "image": "images/redXbox.png",
+            "model_number": "pstation499N",
+            "color": "Red-Black Painted",
+            "price": "28",
+            "wireless_standby_time": "Wireless",
+            "charge_time": "2h",
+            "bluetooth": "Bluetooth 4.1"
+},
+        {
+            "nameComment": "Play Station Console",
+            "name": "Play_Station_Console",
+            "description": "Re-engineered Xbox Wireless Controller features a sleek and streamlined new design for enhanced comfort. Textured surface on the rear of the controller gives you better control and grip during heated firefights and battles",
+            "image": "images/psblack.png",
+            "model_number": "psblack4267",
+            "color": "Black",
+            "price": "61",
+            "wireless_standby_time": "Wireless",
+            "charge_time": "3h",
+            "bluetooth": "Bluetooth 4.0"
+},
+        {
+            "nameComment": "X_Box_Controller 2.0",
+            "name": "X_Box_Controller_2",
+            "description": "Improved wireless range ensures a more reliable connection with your console, PC, tablet, or smartphone. 3.5mm stereo headset jack on the underside of the controller lets you plug in a greater range of headsets and headphones",
+            "image": "images/whiteXbox.png",
+            "model_number": " white799N",
+            "color": "White",
+            "price": "12",
+            "wireless_standby_time": "Wireless",
+            "charge_time": "2h",
+            "bluetooth": "Bluetooth 4.1"
+}
+]
+}

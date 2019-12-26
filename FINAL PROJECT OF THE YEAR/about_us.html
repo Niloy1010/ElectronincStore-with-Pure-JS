@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<!--------------------------------CREATED BY RUCHI---------------------------------------->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TechZoNic</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://fonts.googleapis.com/css?family=Electrolize' rel='stylesheet'>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="index.js"></script>
+
+</head>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: Verdana, sans-serif;
+        background-color: skyblue;
+    }
+
+    #sliderContainer {
+        width: 80%;
+        background-color: #f2f2f2;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .mySlides {
+        display: none;
+    }
+
+    img {
+        vertical-align: middle;
+    }
+
+    #slidestext {
+        color: white;
+        text-align: center;
+        font-size: 30px;
+        padding: 25px;
+    }
+
+    #aboutUsImg {
+        width: auto;
+        font-family: candara;
+        font-size: 2.4em;
+        text-align: center;
+        padding: 10px;
+    }
+
+    #imgId:hover {
+        background-color: rgba(0, 0, 0, 0.6);
+        transition: background-color .8s ease;
+    }
+
+
+    button {
+        width: 15%;
+        padding: 10px;
+        margin-left: 43%;
+        font-size: 20px;
+        background-color: deepskyblue;
+    }
+
+    /* Slideshow container */
+    .slideshow-container {
+        max-width: 1000px;
+        position: relative;
+        margin: auto;
+        height: 300px;
+        background-color: black;
+    }
+
+    /* Caption text */
+    .text {
+        color: #f2f2f2;
+        font-size: 15px;
+        padding: 8px 12px;
+        position: absolute;
+        bottom: 8px;
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Number text (1/3 etc) */
+    .numbertext {
+        color: #f2f2f2;
+        font-size: 12px;
+        padding: 8px 12px;
+        position: absolute;
+        top: 0;
+    }
+
+    /* The dots/bullets/indicators */
+    .dot {
+        height: 15px;
+        width: 15px;
+        margin: 0 2px;
+        background-color: #bbb;
+        border-radius: 50%;
+        display: inline-block;
+        transition: background-color 0.6s ease;
+    }
+
+    .active {
+        background-color: #717171;
+    }
+
+    .containerImg {
+        position: relative;
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .image {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+
+    .overlayImg {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.6);
+        overflow: hidden;
+        width: 100%;
+        height: 100%;
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: .3s ease;
+        transition: .3s ease;
+    }
+
+    .containerImg:hover .overlayImg {
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+    }
+
+    .text {
+        color: white;
+        font-size: 20px;
+        position: absolute;
+        top: 60%;
+        left: 50%;
+        -webkit-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        transform: translate(-50%, -50%);
+        text-align: center;
+    }
+
+    /* Fading animation */
+    .fade {
+        -webkit-animation-name: fade;
+        -webkit-animation-duration: 1.5s;
+        animation-name: fade;
+        animation-duration: 1.5s;
+    }
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    /* On smaller screens, decrease text size */
+    @media only screen and (max-width: 300px) {
+        .text {
+            font-size: 11px
+        }
+    }
+
+</style>
+
+<body>
+    <div class="name">
+        TechZoNic
+    </div>
+    <h2 style="text-align: center">Our Customers are Happy! That's what make us more innovative</h2>
+
+    <div id="sliderContainer">
+        <div class="slideshow-container">
+
+            <div class="mySlides fade">
+                <div class="numbertext">1 / 3</div>
+                <p id="slidestext">"If I can put on my album in a car or on my headphones and listen to the whole thing and love it, that's what I'm going to be happy putting out there."</p>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <p id="slidestext">"I'm a big fan of working out on my own. I put my headphones on and I'm pretty good at self-motivating. At the end of the day, I enjoy it. Once I'm there and once I get going, I tend to love it, and I feel good. "</p>
+            </div>
+
+            <div class="mySlides fade">
+                <div class="numbertext">3 / 3</div>
+                <p id="slidestext">"Nintendo's philosophy is never to go the easy path; it's always to challenge ourselves and try to do something new."</p>
+            </div>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+
+        <script>
+            var slideIndex = 0;
+            showSlides();
+
+            function showSlides() {
+                var i;
+                var slides = document.getElementsByClassName("mySlides");
+                var dots = document.getElementsByClassName("dot");
+                for (i = 0; i < slides.length; i++) {
+                    slides[i].style.display = "none";
+                }
+                slideIndex++;
+                if (slideIndex > slides.length) {
+                    slideIndex = 1
+                }
+                for (i = 0; i < dots.length; i++) {
+                    dots[i].className = dots[i].className.replace(" active", "");
+                }
+                slides[slideIndex - 1].style.display = "block";
+                dots[slideIndex - 1].className += " active";
+                setTimeout(showSlides, 2000); // Change image every 2 seconds
+            }
+
+        </script><button onclick="window.location.href = 'index.html';">Take me Home</button>
+        <div class="containerImg">
+            <img src="images/aboutus.jpg" alt="Avatar" class="image">
+            <div class="overlayImg">
+                <div class="text">"We are happy to serve you with our best offers and gadgets" <br>Team TechZoNic</div>
+            </div>
+        </div>
+        <div id="slidestext" style="background-color: dimgrey">TechZoNic is committed to complying with local laws and regulations as well as applying a strict global code of conduct to all employees. We believe that ethical management is not only a tool for responding to the rapid changes in the global business environment, but also a vehicle for building trust with its various stakeholders including customers, shareholders, employees, business partners and local communities. With an aim to become one of the most ethical companies In the world, Samsung continues to train its employees and operate monitoring systems, while practicing fair and transparent corporate management.</div>
+    </div>
+
+
+    <footer>
+        <div class="media_links">
+            <a href="http://www.facebook.com">
+                <img src="images/facebook.png" class="social" alt="Facebook">
+            </a>
+
+            <a href="http://www.twitter.com">
+                <img src="images/twitter.png" class="social" alt="twitter">
+            </a>
+            <a href="http://www.instagram.com">
+                <img src="images/insta.png" class="social" alt="Instagram">
+            </a>
+        </div>
+        <p>Mail Us: techzonic@outlook.com</p>
+        <p> &copy;2019; All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>

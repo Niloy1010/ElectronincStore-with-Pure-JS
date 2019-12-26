@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<!---------------------------------------------------------------------------CREATED BY NILOY------------------------------------------------------->
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>TechZonic</title>
+    <link href="css/index.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="index.js"></script>
+
+
+
+</head>
+
+<body><!--
+    <button type="button" class="checkSession">Check Session</button>-->
+    <div class="mainClass">
+        <ul>
+            <li style="float: left" class="name_logo">TechZoNic</li>
+            <li><a href="#" id="showWholeCart"><img src="images/cart.png" height="40px" width="40px" id="cartImage"> </a></li>
+            <li><a href="index.html" id="logOut">Log Out</a></li>
+            <li><a class="active" href="#">Products</a></li>
+
+        </ul>
+
+    </div>
+<!--
+
+    <h2 id="check">CLICK ME</h2>
+    <h2 id="check2">CLICK ME TO RESET</h2>
+-->
+
+
+    <main id="wrapper">
+        <div id="intro_header">
+            <div id="image_products"><a href="images/redXbox.png"></a></div>
+            <div id="products_new"><strong>The All new X-Box Controller 2.0 in Red Burst color</strong></div>
+        </div>
+
+        <div id="filterItem">
+
+            <div class="leftFilter">
+                <form>
+
+
+
+
+                    <h3>Categories</h3>
+                    <input type="radio" name="electronics" class="electronics" value="headphone">Ear Phone<br>
+                    <input type="radio" name="electronics" class="electronics" value="headset">Head Set<br>
+                    <input type="radio" name="electronics" class="electronics" value="console">Console<br>
+
+
+
+                    <h3>Price Range</h3>
+                    <input type="checkbox" name="price" value="25">0-25 <br>
+                    <input type="checkbox" name="price" value="50">25-50<br>
+                    <input type="checkbox" name="price" value="75">50-75<br>
+                    <input type="checkbox" name="price" value="125">100+<br><br>
+                    <input type="button" id="filterButton" value="filter">
+
+
+
+
+
+
+                </form>
+            </div>
+            <div class="rightItems">
+                <div class="items headphone" id="head0">
+                    <div id="headphone1" class="imagePic ">
+                    </div>
+                    <h3>JBL_T450BT_On_Ear</h3>
+                    <h4>Price</h4>
+                    <p>24$</p>
+                    <span class="itemPrice">24</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headphone" id="head1">
+                    <div id="headphone2" class="imagePic "></div>
+
+                    <h3>Beats_by_Dr_Dre_Studio3</h3>
+                    <h4>Price</h4>
+                    <p>45$</p>
+                    <span class="itemPrice">45</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headphone" id="head2">
+                    <div id="headphone3" class="imagePic "></div>
+
+                    <h3>Beats_by_Dr_Dre_Studio5</h3>
+                    <h4>Price</h4>
+                    <p>111$</p>
+                    <span class="itemPrice">111</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headphone" id="head3">
+                    <div id="headphone4" class="imagePic "></div>
+
+                    <h3>Sony_WH_CH700N_Over_Ear</h3>
+                    <h4>Price</h4>
+                    <p>65$</p>
+                    <span class="itemPrice">65</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headset" id="ear0">
+                    <div id="headset1" class="imagePic "></div>
+
+                    <h3>Skullcandy_Jib</h3>
+                    <h4>Price</h4>
+                    <p>60$</p>
+                    <span class="itemPrice">60</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headset" id="ear1">
+                    <div id="headset2" class="imagePic "></div>
+
+                    <h3>Skullcandy_Indy</h3>
+                    <h4>Price</h4>
+                    <p>90$</p>
+                    <span class="itemPrice">90</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headset" id="ear2">
+                    <div id="headset3" class="imagePic "></div>
+
+                    <h3>Google_Pixel_Headphones</h3>
+                    <h4>Price</h4>
+                    <p>100$</p>
+                    <span class="itemPrice">100</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items headset" id="ear3">
+                    <div id="headset4" class="imagePic "></div>
+
+                    <h3>iWalk_Earphones</h3>
+                    <h4>Price</h4>
+                    <p>42$</p>
+                    <span class="itemPrice">42</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items console" id="consoleDiv0">
+                    <div id="console1" class="imagePic "></div>
+
+                    <h3>X_Box_Controller</h3>
+                    <h4>Price</h4>
+                    <p>55$</p>
+                    <span class="itemPrice">55</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items console" id="consoleDiv1">
+                    <div id="console2" class="imagePic "></div>
+
+                    <h3>X_Box_Controller_2_0_2</h3>
+                    <h4>Price</h4>
+                    <p>28$</p>
+                    <span class="itemPrice">28</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items console" id="consoleDiv2">
+                    <div id="console3" class="imagePic "></div>
+
+                    <h3>Play_Station_Console</h3>
+                    <h4>Price</h4>
+                    <p>61$</p>
+                    <span class="itemPrice">61</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+                <div class="items console " id="consoleDiv3">
+                    <div id="console4" class="imagePic "></div>
+
+                    <h3>X_Box_Controller_2</h3>
+                    <h4>Price</h4>
+                    <p>12$</p>
+                    <span class="itemPrice">12</span>
+                    <div class="seeDetails">SEE DETAILS</div>
+                </div>
+
+            </div>
+
+            <div class="rightItemsModified">
+                <div class="topPortion">
+                    <div class="showPicture">
+                        <img src="" id="descriptionImage">
+                    </div>
+                    <div class="priceCart">
+                        <div class="price">
+                            <h1 id="hiddenName"></h1>
+                            <h1>Price</h1>
+                            <p id="priceOfCart"></p>
+                        </div>
+
+                        <div class="putComments">
+                            <!--<span class="fa fa-star checked star0"></span>
+                            <span class="fa fa-star checked star1"></span>
+                            <span class="fa fa-star checked star2"></span>
+                            <span class="fa fa-star checked star3"></span>
+                            <span class="fa fa-star checked star4"></span>
+                            <br>-->
+                            <form id="commentForum">
+                            <h4>Rate this product</h4>
+                                <input type="number" id="inputRating" value="1" min="1" max="5"><br>
+                                <textarea placeholder="Add Comment" id="inputComment" value="a"></textarea><br>
+                                <input type="button" id="submitComment" value="Add">
+                            </form>
+
+                        </div>
+                        <button onclick="document.getElementById('id03').style.display='block'" style="width:auto;" class="btn2" id="addToCart">ADD TO CART</button>
+                    </div>
+                </div>
+                <div class="bottomPortion">
+                    <div id="tabs">
+                        <ul>
+                            <li><a href="#tabs-1" id="widget1">Description</a></li>
+                            <li><a href="#tabs-2" id="widget2">Specifications</a>
+                            </li>
+                            <li><a href="#tabs-3" id="widget3" class="hereIsComments" style="display: none">Rating</a></li>
+                        </ul>
+                        <div id="tabs-1">
+                            <p></p>
+                        </div>
+                        <div id="tabs-2">
+                            <p></p>
+                        </div>
+                        <div id="tabs-3">
+
+
+
+
+                            <div id="addComments"></div>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+
+
+
+
+
+            <div id="id03" class="modal">
+                <span onclick="document.getElementById('id03').style.display='none'" class="close" title="Close Modal">&times;</span>
+                <form class="modal-content" action="/action_page.php">
+                    <h4 style="text-align: center">YOUR ORDERED ITEMS</h4>
+                    <div class="container">
+                        <div id="fullCart"></div>
+                        <h3 id="taxPrice">Total Price Including 15% Tax</h3>
+                        <h3 id="totalPrice"></h3>
+
+                        <div class="clearfix">
+                            <button type="button" onclick="document.getElementById('id03').style.display='none'" class="cancelbtn">Cancel</button>
+                            <button type="button" class="signupbtn" id="checkOut">Checkout</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+
+
+
+        </div>
+
+    </main>
+
+</body>
+
+</html>
