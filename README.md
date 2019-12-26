@@ -1,2 +1,2 @@
 # Javascript_Final_Project
-First Semester Final Project on Javascript in Conestoga College (Made by me)
+FInal Javascript project of first semester at Conestoga College  (Made by Niloy)
